@@ -1,3 +1,57 @@
+# 📖Mi portafolio - Alejandro Franco Acosta
+
+## 🚀Objetivo de Proyecto
+
+- Todo parte desde un pensamiento, plan y ejecución.
+- El fin es mostrar mis conocimiento mediante un proyecto que maneje tecnologías de vanguardia en una presentación como profesional tecnológico.
+- La app web se debe visualizar de una forma extremandamente rápida y en cualquier dispositivo.
+
+## ⚙️Pasos Iniciales de Creación
+
+- Requisitos: node LTS o desde v18.x.x.
+- Crear directorio de proyecto
+- cd dir> npm vite@latest portafolio-af
+- Responder preguntas (fw React, lenguaje JavaScript)
+- portafolio-af>npm install
+- Ejecutar servidor con npm run dev y ver localhost:5173
+
+## 🏛️Datos Estructurales:
+
+### Estructura de proyecto
+
+📁src/
+├─ components/ 'Aquí va todas las secciones visuales(Hero,About,Projects,etc.)'
+├─ data/ 'Aquí vivirá todo el texto, skills,experiencia,proyectos'
+| ├─ config.js 'un arreglo que permite cambiar prioridad de componentes.'
+| ├─ profile.en.js 'creación de archivos de idioma'
+| └─ profile.es.js
+|
+├─ i18n/ 'Aquí controlaré el idioma(ES/EN)'
+| ├─ index.js 'Creación de sistema de idiomas. Cambia idioma dinámicamente'
+|
+
+### main.jsx:
+
+- Punto de partida de toda la app. Casi intocable.
+
+### App.jsx (archivo principal):
+
+- Es el componente raíz. Todo mi portafolio vivirá aquí o debajo de aquí.
+- Aquí se comienza a crear.
+
+## 🛠️Datos de Desarrollo
+
+### Repositorio en todos lados
+
+    - Al usar repositorio GitHub, recordar que .gitignore bloquea algunos elementos. Por tal motivo  para trabajar en otro equipo, usar 'npm install' al descargar repositorio.
+
+---
+
+23-01-2026 22:13 horas
+paso 6 de proyecto: Crear estructura profesional de proyecto
+
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
