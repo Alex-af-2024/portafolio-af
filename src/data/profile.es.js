@@ -1,5 +1,5 @@
 export default {
-  name: "Alejandro Franco",
+  name: "Alejandro Franco Acosta",
   headline: "Desarrollador de Software | QA Engineer | Soporte TI",
 
   heroText:

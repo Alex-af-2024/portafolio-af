@@ -12,7 +12,7 @@
 - Crear directorio de proyecto
 - cd dir> npm vite@latest portafolio-af
 - Responder preguntas (fw React, lenguaje JavaScript)
-- portafolio-af>npm install
+- portafolio-af>npm install (este paso es cada vez que se use repositorio en otro equipo)
 - Ejecutar servidor con npm run dev y ver localhost:5173
 
 ## 🏛️Datos Estructurales:
@@ -47,8 +47,26 @@
 
 ---
 
+21-01-2026
+Paso 1.1-1.4 -> Elaboración de proyecto
+--
+22-01-2026
+Estructura de proyecto
+Paso 1.5 ok -> Entender estructura básica
+--
 23-01-2026 22:13 horas
-paso 6 de proyecto: Crear estructura profesional de proyecto
+Paso 1.6 ok -> Crear estructura profesional de proyecto
+--
+24-01-2026
+Paso 1.7 ok -> Sistema de prioridades selectivas [Dev, Qa, Ti]
+Paso 1.8 ok -> Archivos con contenido según idioma (objetos con datos)
+Paso 1.9 ok -> Creación de sistema de idiomas(facilita interacción y cambia idioma de forma dinámica).
+Paso 1.10 ok -> Creación de componente (estructura visual que invoca data mediante content).
+
+Conexión de Todo lo Creado
+Paso 2.1 ok -> Edición de src/App.jsx
+Paso 2.2 ko -> npm run server para probar visualización de componente con datos. Ojo con CSS que aveces puede traer conflictos con configuración por default
+--
 
 ---
 
