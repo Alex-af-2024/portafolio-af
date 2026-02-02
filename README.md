@@ -63,26 +63,28 @@ Paso 1.8 ok -> Archivos con contenido según idioma (objetos con datos)
 Paso 1.9 ok -> Creación de sistema de idiomas(facilita interacción y cambia idioma de forma dinámica).
 Paso 1.10 ok -> Creación de componente (estructura visual que invoca data mediante content).
 
-Conexión de Todo lo Creado
+Conectar Todo en App.jsx
 Paso 2.1 ok -> Edición de src/App.jsx
 Paso 2.2 ko -> npm run server para probar visualización de componente con datos. Ojo con CSS que aveces puede traer conflictos con configuración por default
 --
+Hasta aquí tengo:
+Botones EN / ES arriba
+React funcionando
+Sistema bilingüe
+Arquitectura profesional
 
----
 
-# React + Vite
+Primera sección lista
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+----
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+02-02-2026 Próximo paso
 
-## React Compiler
+En el siguiente paso vamos a:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Crear la sección Projects con tarjetas profesionales
 
-## Expanding the ESLint configuration
+Crear Skills ordenadas por prioridad (Dev → QA → IT)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Agregar un diseño moderno base (colores + tipografía)
