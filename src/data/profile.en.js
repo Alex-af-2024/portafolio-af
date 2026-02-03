@@ -8,9 +8,12 @@ export default {
   projects: [
     {
       title: "QA Integral Project",
+
       description:
-        "Comprehensive QA project covering functional testing, regression testing and automation.",
-      technologies: ["Python", "Selenium", "Pytest", "Postman"],
+        "Comprehensive QA project covering functional testing, regression testing, API validation and automation using Selenium and Pytest.",
+
+      technologies: ["Python", "Selenium", "Pytest", "Postman", "Jira"],
+
       link: "https://github.com/Alex-af-2024/proyecto-qa-integral",
     },
   ],

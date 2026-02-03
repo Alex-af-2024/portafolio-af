@@ -6,4 +6,4 @@ export const languages = {
   es,
 };
 
-// en, es de 5 y 6 -> es un objeto contenedor del enlaze importa. Sirve para que sea más facil de invocar.
+// en, es de 5 y 6 -> es un objeto contenedor del enlaze import. Sirve para que sea más facil de invocar.
