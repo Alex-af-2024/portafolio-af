@@ -23,4 +23,34 @@ export default {
     github: "https://github.com/Alex-af-2024",
     linkedin: "https://www.linkedin.com/in/alejandro-franco-acosta-dev/",
   },
+  skills: {
+    development: [
+      "Java",
+      "Python (Django)",
+      "C# (.NET)",
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+    ],
+
+    qa: [
+      "Functional Testing",
+      "Regression Testing",
+      "Automation (Pytest, JUnit)",
+      "API Testing (Postman, SoapUI)",
+      "Jira / Xray",
+      "SQL & NoSQL Validation",
+    ],
+
+    it: [
+      "Active Directory",
+      "Microsoft 365",
+      "Level 1 & 2 Support",
+      "Monitoring & Deployment",
+    ],
+  },
 };

@@ -17,6 +17,36 @@ export default {
       link: "https://github.com/Alex-af-2024/proyecto-qa-integral",
     },
   ],
+  skills: {
+    development: [
+      "Java",
+      "Python (Django)",
+      "C# (.NET)",
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+    ],
+
+    qa: [
+      "Pruebas Funcionales",
+      "Pruebas Regresivas",
+      "Automatización (Pytest, JUnit)",
+      "Testing API (Postman, SoapUI)",
+      "Jira / Xray",
+      "Validación SQL y NoSQL",
+    ],
+
+    it: [
+      "Active Directory",
+      "Microsoft 365",
+      "Soporte Nivel 1 y 2",
+      "Monitoreo y Despliegue",
+    ],
+  },
 
   contact: {},
 };

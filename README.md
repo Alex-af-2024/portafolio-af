@@ -117,3 +117,12 @@ Hoy logré:
 03-02-2026
 
 - Se agrega un poco de estilo para conocer estructura enlace entre index.css
+
+---
+
+16-02-2026
+
+- Se agrega Skills como data en cada profile.
+- Se crea /components/Skills.jsx para dar estructura a este componente UI
+- Se conecta Skills.jsx con App.jsx
+- Se usa el sistema de prioridad de forma profesional para mayor escalabilidad y alteración flexible.
