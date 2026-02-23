@@ -53,4 +53,25 @@ export default {
       "Monitoring & Deployment",
     ],
   },
+  about: {
+    title: "About Me",
+
+    description: `
+Software Developer with strong experience in Quality Assurance and IT Support.
+
+I specialize in building reliable software, designing automated tests, and validating APIs and databases. My background in the automotive industry strengthened my quality mindset, process discipline, and problem-solving skills.
+
+I am focused on continuous learning and delivering high-quality software solutions.
+`,
+  },
+
+  qaApproach: {
+    title: "QA Approach",
+
+    description: `
+My QA process includes requirement analysis, test case design, functional and regression testing, and automation when applicable.
+
+I validate APIs, databases, and UI behavior to ensure software reliability. I focus on detecting defects early and improving software quality through structured testing and continuous feedback.
+`,
+  },
 };

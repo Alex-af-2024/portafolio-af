@@ -49,4 +49,25 @@ export default {
   },
 
   contact: {},
+
+  about: {
+    title: "Sobre mí",
+
+    description: `
+Desarrollador de Software con sólida experiencia en Quality Assurance y Soporte TI.
+
+Me especializo en crear software confiable, diseñar pruebas automatizadas y validar APIs y bases de datos. Mi experiencia en la industria automotriz fortaleció mi enfoque en la calidad, disciplina de procesos y resolución de problemas.
+
+Estoy enfocado en el aprendizaje continuo y en entregar soluciones de software de alta calidad.
+`,
+  },
+  qaApproach: {
+    title: "Enfoque QA",
+
+    description: `
+Mi proceso QA incluye análisis de requerimientos, diseño de casos de prueba, pruebas funcionales, regresivas y automatización cuando es aplicable.
+
+Valido APIs, bases de datos y comportamiento de la interfaz para asegurar la confiabilidad del software.
+`,
+  },
 };

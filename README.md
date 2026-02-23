@@ -126,3 +126,11 @@ Hoy logré:
 - Se crea /components/Skills.jsx para dar estructura a este componente UI
 - Se conecta Skills.jsx con App.jsx
 - Se usa el sistema de prioridad de forma profesional para mayor escalabilidad y alteración flexible.
+
+---
+
+23-02-2026
+
+Agregar "About me" y "Qa Approach"
+
+- Se agregan componentes para fortalecer estructura de página.

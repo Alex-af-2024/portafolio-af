@@ -4,6 +4,8 @@ import { languages } from "./i18n";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import About from "./components/About";
+import QaApproach from "./components/QaApproach";
 
 export default function App() {
   const [lang, setLang] = useState("en");
@@ -18,7 +20,9 @@ export default function App() {
       </div>
 
       <Hero content={content} />
+      <About about={content.about} />
       <Skills skills={content.skills} />
+      <QaApproach qaApproach={content.qaApproach} />
       <Projects projects={content.projects} />
     </>
   );
