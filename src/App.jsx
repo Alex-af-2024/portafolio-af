@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import About from "./components/About";
 import QaApproach from "./components/QaApproach";
+import Navbar from "./components/Navbar";
 
 export default function App() {
   const [lang, setLang] = useState("en");
@@ -13,17 +14,19 @@ export default function App() {
 
   return (
     <>
-      {/* Selector de idioma y posición de botones */}
-      <div style={{ position: "fixed", top: 10, right: 10 }}>
-        <button onClick={() => setLang("en")}>EN</button>
-        <button onClick={() => setLang("es")}>ES</button>
-      </div>
+      <Navbar setLang={setLang} />
 
-      <Hero content={content} />
-      <About about={content.about} />
-      <Skills skills={content.skills} />
-      <QaApproach qaApproach={content.qaApproach} />
-      <Projects projects={content.projects} />
+      <div className="container" style={{ marginTop: "100px" }}>
+        <Hero content={content} />
+
+        <About about={content.about} />
+
+        <Skills skills={content.skills} />
+
+        <QaApproach qaApproach={content.qaApproach} />
+
+        <Projects projects={content.projects} />
+      </div>
     </>
   );
 }

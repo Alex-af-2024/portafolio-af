@@ -3,28 +3,36 @@ export default function Projects({ projects }) {
     <section>
       <h2>Projects</h2>
 
-      {projects.map((project, index) => (
-        <div key={index} style={cardStyle}>
-          <h3>{project.title}</h3>
+      <div style={gridStyle}>
+        {projects.map((project, index) => (
+          <div key={index} style={cardStyle}>
+            <h3>{project.title}</h3>
 
-          <p>{project.description}</p>
+            <p style={{ marginBottom: "15px" }}>{project.description}</p>
 
-          <p>
-            <strong>Technologies:</strong> {project.technologies.join(", ")}
-          </p>
+            <p style={{ fontSize: "0.9rem", marginBottom: "15px" }}>
+              <strong>Technologies:</strong> {project.technologies.join(", ")}
+            </p>
 
-          <a href={project.link} target="_blank">
-            View on GitHub
-          </a>
-        </div>
-      ))}
+            <a href={project.link} target="_blank">
+              View on GitHub →
+            </a>
+          </div>
+        ))}
+      </div>
     </section>
   );
 }
 
+const gridStyle = {
+  display: "grid",
+  gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+  gap: "20px",
+};
+
 const cardStyle = {
-  border: "1px solid #ccc",
-  padding: "15px",
-  margin: "10px",
-  borderRadius: "10px",
+  backgroundColor: "white",
+  padding: "20px",
+  borderRadius: "12px",
+  boxShadow: "0 4px 12px rgba(0,0,0,0.06)",
 };
