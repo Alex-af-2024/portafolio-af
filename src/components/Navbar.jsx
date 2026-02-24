@@ -1,7 +1,14 @@
 export default function Navbar({ setLang }) {
   return (
-    <nav style={navStyle}>
-      <div style={logoStyle}>Alejandro Franco</div>
+    <nav className="navbar">
+      <div className="logo">Alejandro Franco</div>
+
+      <div className="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#qa">QA</a>
+        <a href="#projects">Projects</a>
+      </div>
 
       <div>
         <button onClick={() => setLang("en")}>EN</button>

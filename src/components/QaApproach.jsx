@@ -1,6 +1,6 @@
 export default function QaApproach({ qaApproach }) {
   return (
-    <section style={sectionStyle}>
+    <section id="qa" className="fade-in section" style={sectionStyle}>
       <h2>{qaApproach.title}</h2>
 
       <p style={textStyle}>{qaApproach.description}</p>

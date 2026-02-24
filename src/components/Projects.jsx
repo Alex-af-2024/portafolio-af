@@ -1,6 +1,6 @@
 export default function Projects({ projects }) {
   return (
-    <section>
+    <section id="projects" className="fade-in section">
       <h2>Projects</h2>
 
       <div style={gridStyle}>
@@ -32,7 +32,8 @@ const gridStyle = {
 
 const cardStyle = {
   backgroundColor: "white",
-  padding: "20px",
-  borderRadius: "12px",
-  boxShadow: "0 4px 12px rgba(0,0,0,0.06)",
+  padding: "22px",
+  borderRadius: "14px",
+  boxShadow: "0 6px 20px rgba(0,0,0,0.05)",
+  transition: "all 0.3s ease",
 };

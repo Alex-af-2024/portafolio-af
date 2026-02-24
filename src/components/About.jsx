@@ -1,17 +1,9 @@
 export default function About({ about }) {
   return (
-    <section style={sectionStyle}>
+    <section id="about" className="fade-in section">
       <h2>{about.title}</h2>
 
-      <p style={textStyle}>{about.description}</p>
+      <p className="section-text">{about.description}</p>
     </section>
   );
 }
-const sectionStyle = {
-  margin: "40px",
-};
-
-const textStyle = {
-  lineHeight: "1.6",
-  maxWidth: "800px",
-};

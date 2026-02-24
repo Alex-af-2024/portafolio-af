@@ -1,6 +1,6 @@
 export default function Hero({ content }) {
   return (
-    <section style={heroContainer}>
+    <section id="hero" className="fade-in section" style={heroContainer}>
       <h1 style={nameStyle}>{content.name}</h1>
 
       <h2 style={headlineStyle}>{content.headline}</h2>
@@ -18,18 +18,19 @@ const nameStyle = {
   fontSize: "3rem",
   fontWeight: "700",
   marginBottom: "10px",
+  letterSpacing: "-1px",
 };
 
 const headlineStyle = {
-  fontSize: "1.3rem",
-  fontWeight: "400",
-  color: "#555",
-  marginBottom: "20px",
+  fontSize: "1.25rem",
+  fontWeight: "500",
+  color: "#6b7280",
+  marginBottom: "25px",
 };
 
 const descriptionStyle = {
-  maxWidth: "650px",
+  maxWidth: "620px",
   fontSize: "1.05rem",
-  lineHeight: "1.8",
-  color: "#444",
+  lineHeight: "1.9",
+  color: "#374151",
 };

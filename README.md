@@ -134,3 +134,11 @@ Hoy logré:
 Agregar "About me" y "Qa Approach"
 
 - Se agregan componentes para fortalecer estructura de página.
+
+---
+
+24-02-2026
+
+- Se mejora UI/UX de página.
+- Se agrega NavBar con links.
+- Se agrega cards a Skills y Projects con efectos.

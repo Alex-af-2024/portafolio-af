@@ -2,13 +2,23 @@ import { profilePriority } from "../data/config";
 
 export default function Skills({ skills }) {
   return (
-    <section>
+    <section id="skills" className="fade-in section">
       <h2>Skills</h2>
 
       <div style={gridStyle}>
         {profilePriority.map((area) => (
           <div key={area} style={cardStyle}>
-            <h3 style={areaTitle}>{area.toUpperCase()}</h3>
+            <h3
+              style={{
+                fontSize: "0.85rem",
+                letterSpacing: "1px",
+                textTransform: "uppercase",
+                color: "#1a73e8",
+                marginBottom: "15px",
+              }}
+            >
+              {area}
+            </h3>
 
             <ul style={listStyle}>
               {skills[area].map((skill, index) => (
@@ -32,9 +42,10 @@ const gridStyle = {
 
 const cardStyle = {
   backgroundColor: "white",
-  padding: "20px",
-  borderRadius: "12px",
-  boxShadow: "0 4px 10px rgba(0,0,0,0.05)",
+  padding: "22px",
+  borderRadius: "14px",
+  boxShadow: "0 6px 20px rgba(0,0,0,0.05)",
+  transition: "all 0.3s ease",
 };
 
 const areaTitle = {
