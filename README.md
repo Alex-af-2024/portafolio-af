@@ -149,3 +149,11 @@ Agregar "About me" y "Qa Approach"
 
 Agregar Experience, Footer y mejorar estilo sobrio.
 Nota: pendiente separar contenido de presentación de .jsx a css
+
+---
+
+04-03-2026
+
+Ordenando styles de /components/x.jsx a estructura de carpetas ordenadas.
+-> /components/Hero/Hero.jsx Hero.css ...Ok
+Nota: En Hero.jsx -> import "./Hero.css";

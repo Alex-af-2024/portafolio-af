@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { languages } from "./i18n";
 
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import About from "./components/About";
-import QaApproach from "./components/QaApproach";
-import Navbar from "./components/Navbar";
-import Experience from "./components/Experience";
-import Footer from "./components/Footer";
+import Hero from "./components/Hero/Hero";
+import Projects from "./components/Projects/Projects";
+import Skills from "./components/Skills/Skills";
+import About from "./components/About/About";
+import QaApproach from "./components/QaApproach/QaApproach";
+import Navbar from "./components/Navbar/Navbar";
+import Experience from "./components/Experience/Experience";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   const [lang, setLang] = useState("en");

@@ -1,3 +1,5 @@
+import "./Experience.css";
+
 export default function Experience({ experience }) {
   return (
     <section id="experience" className="fade-in section">

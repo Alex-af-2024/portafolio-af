@@ -1,6 +1,6 @@
 export default {
   name: "Alejandro Franco Acosta",
-  headline: "Software Developer | QA Engineer | IT Support Specialist",
+  headline: "Software Developer | QA Tester | IT Support Specialist",
 
   heroText:
     "Quality-focused software developer with experience in QA automation, development and IT support.",

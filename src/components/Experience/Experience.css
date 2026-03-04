@@ -1,0 +1,15 @@
+.timeline {
+  border-left: 2px solid #e5e7eb;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+}
+
+.company {
+  display: block;
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
