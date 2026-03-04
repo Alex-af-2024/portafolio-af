@@ -45,6 +45,8 @@ export default {
       "Microsoft 365",
       "Soporte Nivel 1 y 2",
       "Monitoreo y Despliegue",
+      "Acronis",
+      "Clonezilla",
     ],
   },
 
@@ -69,5 +71,25 @@ Mi proceso QA incluye análisis de requerimientos, diseño de casos de prueba, p
 
 Valido APIs, bases de datos y comportamiento de la interfaz para asegurar la confiabilidad del software.
 `,
+  },
+
+  experience: {
+    title: "Experiencia",
+    items: [
+      {
+        role: "Consultor QA",
+        company: "SMX",
+        period: "2024 - 2025",
+        description:
+          "Pruebas funcionales, de regresión y automatización. Validación de APIs y gestión de defectos en equipos ágiles.",
+      },
+      {
+        role: "Especialista en Soporte TI",
+        company: "Universidad Santo Tomás",
+        period: "2025 - Presente",
+        description:
+          "Gestión de Active Directory, soporte de Microsoft 365 y resolución de incidentes a nivel empresarial.",
+      },
+    ],
   },
 };

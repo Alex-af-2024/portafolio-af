@@ -142,3 +142,10 @@ Agregar "About me" y "Qa Approach"
 - Se mejora UI/UX de página.
 - Se agrega NavBar con links.
 - Se agrega cards a Skills y Projects con efectos.
+
+---
+
+03-03-2026
+
+Agregar Experience, Footer y mejorar estilo sobrio.
+Nota: pendiente separar contenido de presentación de .jsx a css

@@ -51,6 +51,8 @@ export default {
       "Microsoft 365",
       "Level 1 & 2 Support",
       "Monitoring & Deployment",
+      "Acronis",
+      "Clonezilla",
     ],
   },
   about: {
@@ -73,5 +75,25 @@ My QA process includes requirement analysis, test case design, functional and re
 
 I validate APIs, databases, and UI behavior to ensure software reliability. I focus on detecting defects early and improving software quality through structured testing and continuous feedback.
 `,
+  },
+
+  experience: {
+    title: "Experience",
+    items: [
+      {
+        role: "QA Consultant",
+        company: "SMX",
+        period: "2024 - 2025",
+        description:
+          "Functional, regression and automation testing. API validation and defect management in agile teams.",
+      },
+      {
+        role: "IT Support Specialist",
+        company: "Universidad Santo Tomás",
+        period: "2025 - Present",
+        description:
+          "Active Directory management, Microsoft 365 support and enterprise-level incident resolution.",
+      },
+    ],
   },
 };

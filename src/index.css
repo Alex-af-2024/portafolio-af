@@ -139,3 +139,28 @@ section div:hover {
 .nav-links a:hover {
   color: #1a73e8;
 }
+
+.timeline {
+  border-left: 2px solid #e5e7eb;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+}
+
+.company {
+  display: block;
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 80px;
+  color: #6b7280;
+  font-size: 0.9rem;
+}

@@ -7,6 +7,8 @@ import Skills from "./components/Skills";
 import About from "./components/About";
 import QaApproach from "./components/QaApproach";
 import Navbar from "./components/Navbar";
+import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 
 export default function App() {
   const [lang, setLang] = useState("en");
@@ -23,9 +25,13 @@ export default function App() {
 
         <Skills skills={content.skills} />
 
+        <Experience experience={content.experience} />
+
         <QaApproach qaApproach={content.qaApproach} />
 
         <Projects projects={content.projects} />
+
+        <Footer footer={content.footer} />
       </div>
     </>
   );
