@@ -9,10 +9,12 @@ export default function Experience({ experience }) {
         {experience.items.map((item, index) => (
           <div key={index} className="timeline-item">
             <h3>{item.role}</h3>
+
             <span className="company">
               {item.company} · {item.period}
             </span>
-            <p>{item.description}</p>
+
+            <p className="experience-description">{item.description}</p>
           </div>
         ))}
       </div>

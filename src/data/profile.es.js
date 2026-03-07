@@ -3,7 +3,43 @@ export default {
   headline: "Desarrollador de Software | QA Tester | Soporte TI",
 
   heroText:
-    "Desarrollador orientado a la calidad con experiencia en automatización QA, desarrollo y soporte TI.",
+    "Estudiante de último año con promedio destacado y sólida experiencia en desarrollo de software, automatización de pruebas y soporte TI. Mi enfoque integra la rigurosidad del control de calidad industrial con la arquitectura de sistemas modernos para construir soluciones confiables y escalables.",
+
+  about: {
+    title: "Sobre mí",
+
+    description: `
+    Soy un Analista Programador orientado a la excelencia técnica. Combino conocimientos avanzados en bases de datos y desarrollo backend con más de una década de trayectoria en resolución de problemas técnicos complejos en el sector automotriz. Mi madurez profesional me permite liderar procesos de mejora continua, adaptarme a entornos ágiles (SCRUM) y garantizar la calidad del software mediante pruebas estructuradas y un análisis profundo de la arquitectura.
+    `,
+  },
+
+  skills: {
+    title: "Habilidades",
+    development: [
+      "Backend (Core): Node.js, Python (Django), Java y C# (.NET).",
+      "Frontend & UI: React, JavaScript (ES6+), HTML5, CSS3 y Bootstrap.",
+      "Bases de Datos (Nivel Avanzado): Dominio experto en SQL Server, MySQL, PostgreSQL y MongoDB.",
+      "Arquitectura & APIs: Diseño y consumo de REST APIs y servicios SOAP.",
+      "Herramientas & Dev: Git & GitHub, Vite (build tool) y despliegue de aplicaciones.",
+    ],
+
+    qa: [
+      "Gestión Ágil: Scrum con Jira/Xray",
+      "Testing Core: Pruebas funcionales y regresivas",
+      "Automatización (Pytest, Java/JUnit)",
+      "API Testing: Pruebas integrales con Postman, SoapUI e Insomnia",
+      "Data Validation: Consultas en DDBB SQL y NoSQL",
+      "Protocolos: Manejos de servicios SOAP y estructuras XML",
+    ],
+
+    it: [
+      "Soporte Técnico: Resolución de incidencias Nivel 1 en hardware y software.",
+      "Productividad: Soporte en la Suite Microsoft 365.",
+      "Sistemas: Configuración y mantenimiento en entornos Windows, Linux y macOS.",
+      "Despliegue: Clonación y respaldo de sistemas con Acronis y Clonezilla.",
+      "Infraestructura: Monitoreo y optimización de recursos tecnológicos en oficinas y laboratorios.",
+    ],
+  },
 
   projects: [
     {
@@ -17,79 +53,38 @@ export default {
       link: "https://github.com/Alex-af-2024/proyecto-qa-integral",
     },
   ],
-  skills: {
-    development: [
-      "Java",
-      "Python (Django)",
-      "C# (.NET)",
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "MySQL",
-      "PostgreSQL",
-      "MongoDB",
-    ],
-
-    qa: [
-      "Pruebas Funcionales",
-      "Pruebas Regresivas",
-      "Automatización (Pytest, JUnit)",
-      "Testing API (Postman, SoapUI)",
-      "Jira / Xray",
-      "Validación SQL y NoSQL",
-    ],
-
-    it: [
-      "Active Directory",
-      "Microsoft 365",
-      "Soporte Nivel 1 y 2",
-      "Monitoreo y Despliegue",
-      "Acronis",
-      "Clonezilla",
-    ],
-  },
-
-  contact: {},
-
-  about: {
-    title: "Sobre mí",
-
-    description: `
-Desarrollador de Software con sólida experiencia en Quality Assurance y Soporte TI.
-
-Me especializo en crear software confiable, diseñar pruebas automatizadas y validar APIs y bases de datos. Mi experiencia en la industria automotriz fortaleció mi enfoque en la calidad, disciplina de procesos y resolución de problemas.
-
-Estoy enfocado en el aprendizaje continuo y en entregar soluciones de software de alta calidad.
-`,
-  },
-  qaApproach: {
-    title: "Enfoque QA",
-
-    description: `
-Mi proceso QA incluye análisis de requerimientos, diseño de casos de prueba, pruebas funcionales, regresivas y automatización cuando es aplicable.
-
-Valido APIs, bases de datos y comportamiento de la interfaz para asegurar la confiabilidad del software.
-`,
-  },
 
   experience: {
     title: "Experiencia",
     items: [
       {
-        role: "Consultor QA",
-        company: "SMX",
-        period: "2024 - 2025",
+        role: "Soporte TI",
+        company: "Universidad Santo Tomás",
+        period: "Junio 2025 - Actualidad",
         description:
-          "Pruebas funcionales, de regresión y automatización. Validación de APIs y gestión de defectos en equipos ágiles.",
+          "Administración de identidades y políticas de acceso en Active Directory. Soporte nivel 1 para la suite Microsoft 365 y optimización de infraestructura tecnológica en laboratorios y oficinas para garantizar la continuidad operativa.",
       },
       {
-        role: "Especialista en Soporte TI",
-        company: "Universidad Santo Tomás",
-        period: "2025 - Presente",
+        role: "Consultor QA",
+        company: "SMX",
+        period: "Junio 2024 - Junio 2025",
         description:
-          "Gestión de Active Directory, soporte de Microsoft 365 y resolución de incidentes a nivel empresarial.",
+          "Diseño, ejecución y automatización de pruebas (Pytest/JUnit) en entornos SCRUM. Validación técnica de bases de datos SQL/NoSQL y pruebas integrales de APIs con Postman y SoapUI bajo un enfoque de arquitectura.",
+      },
+      {
+        role: "Especialista en Diagnóstico y Calidad",
+        company:
+          "Sector Automotriz (Bruno Fritsch / Indumotora / Gildemeister / Toyora Mitsui)",
+        period: "2008 - 2024",
+        description:
+          "Lideré resolución de problemas técnicos complejos y control de calidad. Capacitador en fallas electrónicas, diagramas y gestión de garantías, desarrollando habilidades críticas de comunicación asertiva y adaptabilidad.",
       },
     ],
+  },
+
+  contact: {
+    email: "afranco.afa@gmail.com",
+    github: "https://github.com/Alex-af-2024",
+    linkedin: "https://www.linkedin.com/in/alejandro-franco-acosta-dev/",
   },
 };

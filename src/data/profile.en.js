@@ -1,16 +1,52 @@
 export default {
   name: "Alejandro Franco Acosta",
-  headline: "Software Developer | QA Tester | IT Support Specialist",
+  headline: "Software Developer | QA Tester | IT Support",
 
   heroText:
-    "Quality-focused software developer with experience in QA automation, development and IT support.",
+    "Final-year student with an outstanding GPA and solid experience in software development, test automation, and IT support. My approach integrates the rigor of industrial quality control with modern systems architecture to build reliable and scalable solutions.",
+
+  about: {
+    title: "About Me",
+
+    description: `
+    I am a Programmer Analyst driven by technical excellence. I combine advanced knowledge in databases and backend development with over a decade of experience solving complex technical problems in the automotive sector. My professional maturity allows me to lead continuous improvement processes, adapt to agile environments (SCRUM), and ensure software quality through structured testing and deep architectural analysis.
+    `,
+  },
+
+  skills: {
+    title: "Skills",
+    development: [
+      "Backend (Core): Node.js, Python (Django), Java, and C# (.NET).",
+      "Frontend & UI: React, JavaScript (ES6+), HTML5, CSS3, and Bootstrap.",
+      "Databases (Advanced Level): Expert proficiency in SQL Server, MySQL, PostgreSQL, and MongoDB.",
+      "Architecture & APIs: Design and consumption of REST APIs and SOAP services.",
+      "Tools & Dev: Git & GitHub, Vite (build tool), and application deployment.",
+    ],
+
+    qa: [
+      "Agile Management: Scrum with Jira/Xray.",
+      "Core Testing: Functional and regression testing.",
+      "Automation: Pytest and Java/JUnit.",
+      "API Testing: Comprehensive testing with Postman, SoapUI, and Insomnia.",
+      "Data Validation: SQL and NoSQL database querying.",
+      "Protocols: Management of SOAP services and XML structures.",
+    ],
+
+    it: [
+      "Technical Support: Level 1 hardware and software incident resolution.",
+      "Productivity: Microsoft 365 Suite support.",
+      "Systems: Configuration and maintenance in Windows, Linux, and macOS environments.",
+      "Deployment: System cloning and backup using Acronis and Clonezilla.",
+      "Infrastructure: Monitoring and optimization of technological resources in offices and laboratories.",
+    ],
+  },
 
   projects: [
     {
-      title: "QA Integral Project",
+      title: "Comprehensive QA Project",
 
       description:
-        "Comprehensive QA project covering functional testing, regression testing, API validation and automation using Selenium and Pytest.",
+        "Full QA project including functional and regression testing, API validation, and automation using Selenium and Pytest.",
 
       technologies: ["Python", "Selenium", "Pytest", "Postman", "Jira"],
 
@@ -18,82 +54,37 @@ export default {
     },
   ],
 
-  contact: {
-    email: "afranco.afa@gmail.com",
-    github: "https://github.com/Alex-af-2024",
-    linkedin: "https://www.linkedin.com/in/alejandro-franco-acosta-dev/",
-  },
-  skills: {
-    development: [
-      "Java",
-      "Python (Django)",
-      "C# (.NET)",
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "MySQL",
-      "PostgreSQL",
-      "MongoDB",
-    ],
-
-    qa: [
-      "Functional Testing",
-      "Regression Testing",
-      "Automation (Pytest, JUnit)",
-      "API Testing (Postman, SoapUI)",
-      "Jira / Xray",
-      "SQL & NoSQL Validation",
-    ],
-
-    it: [
-      "Active Directory",
-      "Microsoft 365",
-      "Level 1 & 2 Support",
-      "Monitoring & Deployment",
-      "Acronis",
-      "Clonezilla",
-    ],
-  },
-  about: {
-    title: "About Me",
-
-    description: `
-Software Developer with strong experience in Quality Assurance and IT Support.
-
-I specialize in building reliable software, designing automated tests, and validating APIs and databases. My background in the automotive industry strengthened my quality mindset, process discipline, and problem-solving skills.
-
-I am focused on continuous learning and delivering high-quality software solutions.
-`,
-  },
-
-  qaApproach: {
-    title: "QA Approach",
-
-    description: `
-My QA process includes requirement analysis, test case design, functional and regression testing, and automation when applicable.
-
-I validate APIs, databases, and UI behavior to ensure software reliability. I focus on detecting defects early and improving software quality through structured testing and continuous feedback.
-`,
-  },
-
   experience: {
     title: "Experience",
     items: [
       {
-        role: "QA Consultant",
-        company: "SMX",
-        period: "2024 - 2025",
+        role: "IT Support",
+        company: "Universidad Santo Tomás",
+        period: "June 2025 - Present",
         description:
-          "Functional, regression and automation testing. API validation and defect management in agile teams.",
+          "Identity and access policy management in Active Directory. Level 1 support for the Microsoft 365 suite and optimization of technological infrastructure in laboratories and offices to ensure operational continuity.",
       },
       {
-        role: "IT Support Specialist",
-        company: "Universidad Santo Tomás",
-        period: "2025 - Present",
+        role: "QA Consultant",
+        company: "SMX",
+        period: "June 2024 - June 2025",
         description:
-          "Active Directory management, Microsoft 365 support and enterprise-level incident resolution.",
+          "Design, execution, and automation of tests (Pytest/JUnit) in SCRUM environments. Technical validation of SQL/NoSQL databases and end-to-end API testing using Postman and SoapUI with an architectural focus.",
+      },
+      {
+        role: "Diagnostic and Quality Specialist",
+        company:
+          "Automotive Sector (Bruno Fritsch / Indumotora / Gildemeister / Toyota Mitsui)",
+        period: "2008 - 2024",
+        description:
+          "Led complex technical problem solving and quality control. Trainer in electronic failures, schematics, and warranty management, developing critical skills in assertive communication and adaptability.",
       },
     ],
+  },
+
+  contact: {
+    email: "afranco.afa@gmail.com",
+    github: "https://github.com/Alex-af-2024",
+    linkedin: "https://www.linkedin.com/in/alejandro-franco-acosta-dev/",
   },
 };

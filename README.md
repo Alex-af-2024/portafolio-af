@@ -154,6 +154,12 @@ Nota: pendiente separar contenido de presentación de .jsx a css
 
 04-03-2026
 
-Ordenando styles de /components/x.jsx a estructura de carpetas ordenadas.
--> /components/Hero/Hero.jsx Hero.css ...Ok
-Nota: En Hero.jsx -> import "./Hero.css";
+Ordenar styles de /components/x.jsx a estructura de carpetas ordenadas. Ok
+
+05-03-2026
+
+Se refuerza contenido
+
+07-03-2026
+
+Se termina contenido general de proyecto

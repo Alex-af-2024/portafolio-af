@@ -5,7 +5,6 @@ import Hero from "./components/Hero/Hero";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import About from "./components/About/About";
-import QaApproach from "./components/QaApproach/QaApproach";
 import Navbar from "./components/Navbar/Navbar";
 import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer/Footer";
@@ -25,11 +24,9 @@ export default function App() {
 
         <Skills skills={content.skills} />
 
-        <Experience experience={content.experience} />
-
-        <QaApproach qaApproach={content.qaApproach} />
-
         <Projects projects={content.projects} />
+
+        <Experience experience={content.experience} />
 
         <Footer footer={content.footer} />
       </div>
