@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { languages } from "./i18n";
 
 import Hero from "./components/Hero/Hero";
@@ -11,11 +11,19 @@ import Footer from "./components/Footer/Footer";
 
 export default function App() {
   const [lang, setLang] = useState("en");
+  const [darkMode, setDarkMode] = useState(false);
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [darkMode]);
   const content = languages[lang];
 
   return (
     <>
-      <Navbar setLang={setLang} />
+      <Navbar setLang={setLang} darkMode={darkMode} setDarkMode={setDarkMode} />
 
       <div className="container" style={{ marginTop: "100px" }}>
         <Hero content={content} />

@@ -30,17 +30,26 @@
   color: #1a73e8;
 }
 
-.language-switch button {
+.controls button {
   margin-left: 10px;
   padding: 6px 12px;
   border: 1px solid #e5e7eb;
   background: white;
-   color: #374151; 
+  color: #374151;
   border-radius: 6px;
   cursor: pointer;
+  font-size: 14px;
+  height: 32px;
   transition: all 0.2s ease;
 }
 
-.language-switch button:hover {
+.controls button:hover {
   background-color: #f3f4f6;
+}
+
+
+.dark-toggle {
+  font-size: 12px;
+  line-height: 1;
+  padding: 6px 10px;
 }
