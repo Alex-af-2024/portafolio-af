@@ -6,8 +6,8 @@ export default function Experience({ experience }) {
       <h2>{experience.title}</h2>
 
       <div className="timeline">
-        {experience.items.map((item, index) => (
-          <div key={index} className="timeline-item">
+        {experience.items.map((item) => (
+          <div key={item.id} className="timeline-item">
             <h3>{item.role}</h3>
 
             <span className="company">

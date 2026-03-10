@@ -163,3 +163,23 @@ Se refuerza contenido
 07-03-2026
 
 Se termina contenido general de proyecto
+
+---
+
+07-03-2026
+
+## Revisar proyecto con React Doctor para detectar anti patrones -> $ npx -y react-doctor
+
+Según consejo encontrado, se debe colocar en id en los elementos que son recorridos con map. Ejemplo: projects, skills, experience. Revisar /components/
+
+- Regla simple:
+  .map() de objetos si nececita id
+  .map() de strings no nececita id (usar el string)
+  Elemento único no.
+
+---
+
+Pendientes:
+-> Agregar ícono con Dark Mode
+-> Agregar datos de contacto
+-> Subir proyecto a FireBase

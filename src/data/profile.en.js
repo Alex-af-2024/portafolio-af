@@ -43,10 +43,11 @@ export default {
 
   projects: [
     {
+      id: "id-tester-project",
       title: "Comprehensive QA Project",
 
       description:
-        "Full QA project including functional and regression testing, API validation, and automation using Selenium and Pytest.",
+        "Full QA project including functional and regression testing, API validation, and automation using Selenium and Pytest. Demonstrate my order and good practices in the test core.",
 
       technologies: ["Python", "Selenium", "Pytest", "Postman", "Jira"],
 
@@ -58,6 +59,7 @@ export default {
     title: "Experience",
     items: [
       {
+        id: "it-support-st",
         role: "IT Support",
         company: "Universidad Santo Tomás",
         period: "June 2025 - Present",
@@ -65,14 +67,16 @@ export default {
           "Identity and access policy management in Active Directory. Level 1 support for the Microsoft 365 suite and optimization of technological infrastructure in laboratories and offices to ensure operational continuity.",
       },
       {
-        role: "QA Consultant",
+        id: "qa-tester",
+        role: "QA Tester",
         company: "SMX",
         period: "June 2024 - June 2025",
         description:
           "Design, execution, and automation of tests (Pytest/JUnit) in SCRUM environments. Technical validation of SQL/NoSQL databases and end-to-end API testing using Postman and SoapUI with an architectural focus.",
       },
       {
-        role: "Diagnostic and Quality Specialist",
+        id: "id-automotive",
+        role: "Automotive Diagnostics and Quality Specialist",
         company:
           "Automotive Sector (Bruno Fritsch / Indumotora / Gildemeister / Toyota Mitsui)",
         period: "2008 - 2024",
