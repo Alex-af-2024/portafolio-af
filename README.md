@@ -179,7 +179,74 @@ Según consejo encontrado, se debe colocar en id en los elementos que son recorr
 
 ---
 
-Pendientes:
--> Agregar ícono con Dark Mode
--> Agregar datos de contacto
+09-03-2026
+
+-> Agregar ícono con Dark Mode ok
+-> Agregar datos de contacto -- Se dejará de momento sin datos de contacto.
+
+---
+
 -> Subir proyecto a FireBase
+
+Usaré Firebase hosting porque
+
+- Es rápido (CDN global)
+- Tiene HTTPS automático
+- Es gratis para mi proyecto por ser ligero
+- Puedo actualizar facilmente el sitio
+
+Consideraciones:
+
+- Compilar proyecto para que Firebase pueda leer proyecto en su "lenguaje".
+  ->npm run build /_creará una carpeta dist/ donde estará mi sitio para producción y firebase lo publicará_/
+
+- Instalar Firebase CLI (Solo una vez en mi PC)
+
+  > npm install -g firebase-tools
+  > Se instalarán muchos paquetes
+
+- Login
+  firebase login
+  preguntará si quiero integrar IA Gemina. No lo necesito para este proyecto "n"
+  preguntará si quiero enviar reportes "n"
+  logear con cuenta de google en navegador que se abre automáticamente. Mensaje Woohoo!
+  ... en consola saldrá + Success! Logged in as afranco.afa@gmail.com
+
+- Inicializar Firebase
+
+  > firebase init
+  > yes para confirmar
+  > escoger opcion hosting flecha + espacio(marcar opción) + enter
+  > Create a new proyect en firebase
+  > colocar nombre de ese portafolio (borrar sugerencia si quiero agregar algo distintivo)
+  > colocar nombre de portafolio, que sea profesional
+
+  Ahora viene la pregunta más importante
+  what do you want to use your public directory?
+
+  > dist /_porque proyecto React con Vite genera el build ahí_/
+  > luego responer si quiero que se configura como SPA
+  > y /_quiere decir si debe redirigir todas las rutas a /index.html y es importante porque cuando se navega por /about /projects /skills no existen como archivos físicos, todo lo maneja React desde index.html _/
+
+  para ? Set up automatic builds and deploys with GitHub? (Y/n)
+  tenemos dos opciones, pongo y porque al hacer git push se acttiva build automático y deploy en Firebase
+
+para ? For which GitHub repository would you like to set up a GitHub workflow? (format: user/repository)
+poner usuario/nombre-repositorio
+
+Desde el punto de logeo con github, me salió error pero no es por el proyecto. Así que modificaré más adelante el deploy con GitHub desde consola de Firebase
+
+Por ahora retornemos con
+
+firebase init
+hacemos lo mismo hasta llegar a github y poner n
+si pregunta por sobreescribir el dist/index.html, poner no para que no se borre el que ya creé.
+
+- Una vez terminado inicializamos firebase
+
+> npm run build
+> firebase deploy
+> Si todo sale bien verás algo como:
+> Hosting URL: https://portafolio-af-dev.web.app
+
+Mi link es https://portafolio-af-dev.web.app
