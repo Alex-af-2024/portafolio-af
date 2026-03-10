@@ -3,10 +3,10 @@ import "./Projects.css";
 export default function Projects({ projects }) {
   return (
     <section id="projects" className="fade-in section">
-      <h2>Projects</h2>
+      <h2>{projects.title}</h2>
 
       <div className="projects-grid">
-        {projects.map((project) => (
+        {projects.items.map((project) => (
           <div key={project.id} className="project-card">
             <h3 className="project-title">{project.title}</h3>
 

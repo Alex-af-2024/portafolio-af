@@ -41,7 +41,10 @@ export default {
     ],
   },
 
-  projects: [
+  projects: {
+  title:"Projects",
+  items:
+    [
     {
       id: "id-tester-project",
       title: "Comprehensive QA Project",
@@ -54,6 +57,7 @@ export default {
       link: "https://github.com/Alex-af-2024/proyecto-qa-integral",
     },
   ],
+},
 
   experience: {
     title: "Experience",

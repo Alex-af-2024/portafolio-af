@@ -250,3 +250,7 @@ si pregunta por sobreescribir el dist/index.html, poner no para que no se borre 
 > Hosting URL: https://portafolio-af-dev.web.app
 
 Mi link es https://portafolio-af-dev.web.app
+---
+
+10-03-2026
+Implementar title para Projects para que sea independiente en de es

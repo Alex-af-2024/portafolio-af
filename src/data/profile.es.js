@@ -41,19 +41,22 @@ export default {
     ],
   },
 
-  projects: [
-    {
-      id: "id-tester-project",
-      title: "Proyecto Integral QA",
+  projects: {
+    title: "Proyectos",
+    items: [
+      {
+        id: "id-tester-project",
+        title: "Proyecto Integral QA",
 
-      description:
-        "Proyecto completo de QA que incluye pruebas funcionales, regresivas, validación de APIs y automatización con Selenium y Pytest. Demuestra mi orden y buenas prácticas en el core de pruebas.",
+        description:
+          "Proyecto completo de QA que incluye pruebas funcionales, regresivas, validación de APIs y automatización con Selenium y Pytest. Demuestra mi orden y buenas prácticas en el core de pruebas.",
 
-      technologies: ["Python", "Selenium", "Pytest", "Postman", "Jira"],
+        technologies: ["Python", "Selenium", "Pytest", "Postman", "Jira"],
 
-      link: "https://github.com/Alex-af-2024/proyecto-qa-integral",
-    },
-  ],
+        link: "https://github.com/Alex-af-2024/proyecto-qa-integral",
+      },
+    ],
+  },
 
   experience: {
     title: "Experiencia",

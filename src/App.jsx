@@ -10,7 +10,7 @@ import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer/Footer";
 
 export default function App() {
-  const [lang, setLang] = useState("en");
+  const [lang, setLang] = useState("es");
   const [darkMode, setDarkMode] = useState(false);
   useEffect(() => {
     if (darkMode) {
