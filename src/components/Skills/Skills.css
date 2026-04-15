@@ -32,3 +32,9 @@
 .skill-item {
   margin-bottom: 8px;
 }
+
+@media (max-width: 640px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -148,3 +148,29 @@ body.dark .controls button {
 body.dark .controls button:hover {
   background-color: #374151;
 }
+
+/* =========================
+   RESPONSIVE - MOBILE
+========================= */
+
+@media (max-width: 640px) {
+  body {
+    padding-top: 70px;
+  }
+
+  .container {
+    padding: 20px 16px;
+  }
+
+  .section {
+    margin-bottom: 50px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}

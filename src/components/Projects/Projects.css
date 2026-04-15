@@ -56,3 +56,13 @@ body.dark .project-description {
 body.dark .project-tech {
   color: #94a3b8;
 }
+
+@media (max-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 18px;
+  }
+}

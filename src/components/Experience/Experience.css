@@ -28,3 +28,18 @@ body.dark .company {
 body.dark .experience-description {
   color: #d1d5db;
 }
+
+@media (max-width: 640px) {
+  .timeline {
+    padding-left: 14px;
+  }
+
+  .experience-description {
+    max-width: 100%;
+    font-size: 0.97rem;
+  }
+
+  .timeline-item {
+    margin-bottom: 28px;
+  }
+}

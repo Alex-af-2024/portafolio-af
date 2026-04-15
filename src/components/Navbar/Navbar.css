@@ -1,3 +1,6 @@
+/* ========================
+   NAVBAR BASE
+======================== */
 .navbar {
   position: fixed;
   top: 0;
@@ -16,6 +19,16 @@
   font-weight: 700;
   font-size: 1rem;
   letter-spacing: 0.5px;
+  z-index: 1001;
+}
+
+/* ========================
+   DESKTOP: nav-right group
+======================== */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 0;
 }
 
 .nav-links a {
@@ -47,9 +60,120 @@
   background-color: #f3f4f6;
 }
 
-
 .dark-toggle {
   font-size: 12px;
   line-height: 1;
   padding: 6px 10px;
+}
+
+/* ========================
+   HAMBURGER BUTTON
+======================== */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  margin-left: 0;
+  z-index: 1001;
+}
+
+.hamburger-line {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #374151;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* ==============================
+   MOBILE: breakpoint ≤ 640px
+============================== */
+@media (max-width: 640px) {
+  .navbar {
+    padding: 14px 20px;
+    flex-wrap: wrap;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  /* Dropdown panel */
+  .nav-right {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 16px 0 8px 0;
+    gap: 12px;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 10px;
+  }
+
+  .nav-right.nav-open {
+    display: flex;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .nav-links a {
+    margin-right: 0;
+    font-size: 1rem;
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .controls button {
+    margin-left: 0;
+  }
+}
+
+/* ========================
+   DARK MODE
+======================== */
+body.dark .navbar {
+  background-color: rgba(17, 24, 39, 0.9);
+  border-bottom: 1px solid #ced3da;
+}
+
+body.dark .nav-links a {
+  color: #e5e7eb;
+}
+
+body.dark .nav-links a:hover {
+  color: #60a5fa;
+}
+
+body.dark .controls button {
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  color: #e5e7eb;
+}
+
+body.dark .controls button:hover {
+  background-color: #374151;
+}
+
+body.dark .hamburger-line {
+  background-color: #e5e7eb;
+}
+
+body.dark .nav-right {
+  border-top-color: #374151;
 }

@@ -30,3 +30,23 @@ body.dark .hero-headline {
 body.dark .hero-description {
   color: #d1d5db;
 }
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 40px 0 40px 0;
+  }
+
+  .hero-name {
+    font-size: 2rem;
+    letter-spacing: -0.5px;
+  }
+
+  .hero-headline {
+    font-size: 1.05rem;
+  }
+
+  .hero-description {
+    font-size: 0.97rem;
+    max-width: 100%;
+  }
+}
