@@ -9,7 +9,7 @@ export default {
     title: "About Me",
 
     description: `
-    I am a Programmer Analyst driven by technical excellence. I combine advanced knowledge in databases and backend development with over a decade of experience solving complex technical problems in the automotive sector. My professional maturity allows me to lead continuous improvement processes, adapt to agile environments (SCRUM), and ensure software quality through structured testing and deep architectural analysis.
+    I am a Programmer Analyst driven by technical excellence. I combine advanced knowledge in databases and Full Stack development with over a decade of experience solving complex technical problems in the automotive sector. My professional maturity allows me to lead continuous improvement processes, adapt to agile environments (SCRUM), and ensure software quality through structured testing and deep architectural analysis.
     `,
   },
 
@@ -57,6 +57,28 @@ export default {
 
           link: "https://github.com/Alex-af-2024/proyecto-qa-integral",
         },
+        {
+          id: "id-portafolio-af",
+          title: "My Portfolio",
+
+          description:
+            "This repository reflects my workflow, built on industry standards, clean architecture, and comprehensive documentation",
+
+          technologies: ["React & Vite", "Firbase", "HTML 5", "CSS", "JavaScript"],
+
+          link: "https://github.com/Alex-af-2024/portafolio-af",
+        },
+        {
+          id: "id-encuentra-tu-aula",
+          title: "Find Your Classroom",
+
+          description:
+            "This project was designed to simplify classroom navigation for faculty and students across UST | IP | CFT Santo Tomás. It was launched using an agile development approach to address an urgent need, with a clear roadmap in place for future enhancements and scalability.",
+
+          technologies: ["React con Vite", "TypeScript", "Firbase", "Firestore", "Cloude Storage", "HTML 5", "Tailwind.css"],
+
+          link: "https://github.com/Alex-af-2024/encuentra-tu-aula",
+        },
       ],
   },
 
@@ -65,7 +87,7 @@ export default {
     items: [
       {
         id: "it-support-st",
-        role: "IT Support",
+        role: "IT Support - Developer Full Stack",
         company: "Universidad Santo Tomás",
         period: "June 2025 - Present",
         description:

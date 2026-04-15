@@ -9,7 +9,7 @@ export default {
     title: "Sobre mí",
 
     description: `
-    Soy un Analista Programador orientado a la excelencia técnica. Combino conocimientos avanzados en bases de datos y desarrollo backend con más de una década de trayectoria en resolución de problemas técnicos complejos en el sector automotriz. Mi madurez profesional me permite liderar procesos de mejora continua, adaptarme a entornos ágiles (SCRUM) y garantizar la calidad del software mediante pruebas estructuradas y un análisis profundo de la arquitectura.
+    Soy un Analista Programador orientado a la excelencia técnica. Combino conocimientos avanzados en bases de datos y desarrollo Full Stack con más de una década de trayectoria en resolución de problemas técnicos complejos en el sector automotriz. Mi madurez profesional me permite liderar procesos de mejora continua, adaptarme a entornos ágiles (SCRUM) y garantizar la calidad del software mediante pruebas estructuradas y un análisis profundo de la arquitectura.
     `,
   },
 
@@ -56,6 +56,28 @@ export default {
 
         link: "https://github.com/Alex-af-2024/proyecto-qa-integral",
       },
+      {
+        id: "id-portafolio-af",
+        title: "Mi Portafolio",
+
+        description:
+          "Este repositorio refleja mi metodología de trabajo, basada en estándares de calidad, arquitectura limpia y una documentación detallada.",
+
+        technologies: ["React con Vite", "Firbase", "HTML 5", "CSS", "JavaScript"],
+
+        link: "https://github.com/Alex-af-2024/portafolio-af",
+      },
+      {
+        id: "id-encuentra-tu-aula",
+        title: "Encuentra tu Aula",
+
+        description:
+          "Este proyecto fue diseñado para facilitar la ubicación de aulas tanto para el personal académico como para los estudiantes de UST | IP | CFT Santo Tomás. Se lanzó bajo una modalidad de desarrollo ágil para atender una necesidad urgente, con una hoja de ruta establecida para futuras mejoras y escalabilidad.",
+
+        technologies: ["React con Vite", "TypeScript", "Firbase", "Firestore", "Cloude Storage", "HTML 5", "Tailwind.css"],
+
+        link: "https://github.com/Alex-af-2024/encuentra-tu-aula",
+      },
     ],
   },
 
@@ -64,7 +86,7 @@ export default {
     items: [
       {
         id: "it-support-st",
-        role: "Soporte TI",
+        role: "Soporte TI - Desarrollador Full Stack",
         company: "Universidad Santo Tomás",
         period: "Junio 2025 - Actualidad",
         description:
