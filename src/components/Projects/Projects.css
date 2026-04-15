@@ -48,3 +48,11 @@ body.dark .project-card {
   background-color: #1f2937;
   border: 1px solid #374151;
 }
+
+body.dark .project-description {
+  color: #d1d5db;
+}
+
+body.dark .project-tech {
+  color: #94a3b8;
+}

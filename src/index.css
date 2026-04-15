@@ -22,7 +22,8 @@ body {
   background-color: #f8f9fa;
   color: #222;
   line-height: 1.7;
-  padding-top: 90px; /* espacio para navbar fixed */
+  padding-top: 90px;
+  /* espacio para navbar fixed */
 }
 
 /* =========================
@@ -114,8 +115,8 @@ body.dark {
 }
 
 body.dark .navbar {
-  background-color: rgba(17,24,39,0.9);
-  border-bottom: 1px solid #374151;
+  background-color: rgba(17, 24, 39, 0.9);
+  border-bottom: 1px solid #ced3da;
 }
 
 body.dark .nav-links a {

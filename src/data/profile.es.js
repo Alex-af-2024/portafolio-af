@@ -3,7 +3,7 @@ export default {
   headline: "Desarrollador de Software | QA Tester | Soporte TI",
 
   heroText:
-    "Estudiante de último año con promedio destacado y sólida experiencia en desarrollo de software, automatización de pruebas y soporte TI. Mi enfoque integra la rigurosidad del control de calidad industrial con la arquitectura de sistemas modernos para construir soluciones confiables y escalables.",
+    "Analista Programador con un promedio académico destacado y experiencia comprobada en el ciclo de vida completo de desarrollo (SDLC). Cuento con un historial sólido en la creación y despliegue de aplicaciones, automatización de pruebas y soporte TI. Mi enfoque combina la rigurosidad del control de calidad industrial con la arquitectura de sistemas modernos para entregar soluciones escalables, confiables y orientadas a producción.",
 
   about: {
     title: "Sobre mí",
@@ -16,11 +16,12 @@ export default {
   skills: {
     title: "Habilidades",
     development: [
-      "Backend (Core): Node.js, Python (Django), Java y C# (.NET).",
+      "Backend (Core): Node.js, TypeScript, Python (Django), Java y C# (.NET).",
       "Frontend & UI: React, JavaScript (ES6+), HTML5, CSS3 y Bootstrap.",
-      "Bases de Datos (Nivel Avanzado): Dominio experto en SQL Server, MySQL, PostgreSQL y MongoDB.",
+      "Bases de Datos (Nivel Avanzado): Dominio experto en SQL Server, MySQL, PostgreSQL, MongoDB y Firestore.",
       "Arquitectura & APIs: Diseño y consumo de REST APIs y servicios SOAP.",
-      "Herramientas & Dev: Git & GitHub, Vite (build tool) y despliegue de aplicaciones.",
+      "Herramientas & Dev: Git, GitHub, GitLab, Vite (build tool) y despliegue de aplicaciones.",
+      "Entornos de desarrollo (IDEs): VS Code, Cursor (AI-Native IDE), Google Antigravity."
     ],
 
     qa: [

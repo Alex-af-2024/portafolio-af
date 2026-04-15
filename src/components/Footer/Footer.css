@@ -14,5 +14,9 @@
 
 body.dark .footer {
   background-color: #111827;
-  color: #9ca3af;
+  color: #cbd5e1;
+}
+
+body.dark .footer-text {
+  color: #cbd5e1;
 }

@@ -3,7 +3,7 @@ export default {
   headline: "Software Developer | QA Tester | IT Support",
 
   heroText:
-    "Final-year student with an outstanding GPA and solid experience in software development, test automation, and IT support. My approach integrates the rigor of industrial quality control with modern systems architecture to build reliable and scalable solutions.",
+    "Top-tier academic performer and experienced Programmer Analyst with a proven track record across the full Software Development Life Cycle (SDLC). Extensive experience in building and deploying production-ready applications, test automation, and IT support. My approach integrates the rigor of industrial quality control with modern system architecture to deliver scalable, reliable, and production-oriented solutions.",
 
   about: {
     title: "About Me",
@@ -20,7 +20,8 @@ export default {
       "Frontend & UI: React, JavaScript (ES6+), HTML5, CSS3, and Bootstrap.",
       "Databases (Advanced Level): Expert proficiency in SQL Server, MySQL, PostgreSQL, and MongoDB.",
       "Architecture & APIs: Design and consumption of REST APIs and SOAP services.",
-      "Tools & Dev: Git & GitHub, Vite (build tool), and application deployment.",
+      "Tools & Dev: Git, GitHub & GitLab, Vite (build tool), and application deployment.",
+      "AI-Native IDEs & Tools: Cursor, Google Antigravity, VS Code."
     ],
 
     qa: [
@@ -42,22 +43,22 @@ export default {
   },
 
   projects: {
-  title:"Projects",
-  items:
-    [
-    {
-      id: "id-tester-project",
-      title: "Comprehensive QA Project",
+    title: "Projects",
+    items:
+      [
+        {
+          id: "id-tester-project",
+          title: "Comprehensive QA Project",
 
-      description:
-        "Full QA project including functional and regression testing, API validation, and automation using Selenium and Pytest. Demonstrate my order and good practices in the test core.",
+          description:
+            "Full QA project including functional and regression testing, API validation, and automation using Selenium and Pytest. Demonstrate my order and good practices in the test core.",
 
-      technologies: ["Python", "Selenium", "Pytest", "Postman", "Jira"],
+          technologies: ["Python", "Selenium", "Pytest", "Postman", "Jira"],
 
-      link: "https://github.com/Alex-af-2024/proyecto-qa-integral",
-    },
-  ],
-},
+          link: "https://github.com/Alex-af-2024/proyecto-qa-integral",
+        },
+      ],
+  },
 
   experience: {
     title: "Experience",

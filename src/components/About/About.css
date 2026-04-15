@@ -3,3 +3,7 @@
   line-height: 1.9;
   color: #374151;
 }
+
+body.dark .section-text {
+  color: #d1d5db;
+}
